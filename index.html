@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shiva's food pvt. ltd</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width:1170px)" href="css/phone.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Foldit:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+    <script async src="https://platform.twitter.com/widgets.js" charset="UTF-8"></script>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="img/logo_com.png" alt="Shiva's food pvt. ltd">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#sevices-container">Services</a></li>
+            <li class="item"><a href="#client-section">our clients</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome to Shiva's food pvt. ltd</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At ea nisi sunt.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <button class="btn">Order Now</button>
+    </section>
+    <section id="services-container">
+        <h1 class="h-primary centre">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="img/1.png" alt="">
+                <h2 class="h-secondary centre">Food Catering</h2>
+                <p class="centre">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae asperiores quae
+                    recusandae quisquam quia quo hic inventore optio laudantium provident quasi facilis labore,
+                    obcaecati libero expedita fugit maxime sequi. Dolore sapiente rerum totam culpa.</p>
+            </div>
+            <div class="box">
+                <img src="img/2.png" alt="">
+                <h2 class="h-secondary centre">Bulk Ordering</h2>
+                <p class="centre">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae asperiores quae
+                    recusandae quisquam quia quo hic inventore optio laudantium provident quasi facilis labore,
+                    obcaecati libero expedita fugit maxime sequi. Dolore sapiente rerum totam culpa.</p>
+            </div>
+            <div class="box">
+                <img src="img/3.png" alt="">
+                <h2 class="h-secondary centre">Food Ordering</h2>
+                <p class="centre">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae asperiores quae
+                    recusandae quisquam quia quo hic inventore optio laudantium provident quasi facilis labore,
+                    obcaecati libero expedita fugit maxime sequi. Dolore sapiente rerum totam culpa.</p>
+            </div>
+        </div>
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary centre">Our Clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="img/logo1.png" alt="Our Client">
+            </div>
+            <div class="client-item">
+                <img src="img/logo2.png" alt="Our Client">
+            </div>
+            <div class="client-item">
+                <img src="img/logo4.png" alt="Our Client">
+            </div>
+            <div class="client-item">
+                <img src="img/logo3.png" alt="Our Client">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="h-primary centre">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="name" id="email" placeholder="Enter Your Email">
+                </div>
+                <div class="form-group">
+                    <label for="number">Phone Number: </label>
+                    <input type="number" name="number" id="number" placeholder="Enter Your Phone number">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div id="social">
+            <div id="facebook">
+                <a href="#"><img src="img/icon-facebook_tfqsuc.png" alt="error" class="icon"></a>
+            </div>
+            <div id="picsart">
+                <a href="#"><img src="img/picsart.png" alt="error" class="icon"></a>
+            </div>
+            <div id="instagram">
+                <a href="#"><img src="img/instagram.png" alt="error" class="icon"></a>
+            </div>
+            <div id="twitter">
+                 <a href="#"><img src="img/twitter.png" alt="error" class="icon" onclick="share()"></a>
+            </div>
+        </div>
+        <div class="all">
+            copyright &copy; www.MyOnlinemeal.com All Right Reseved
+        </div>
+    </footer>
+
+
+
+
+    <script>
+       function share()
+        {
+        //    var text = document.createTextNode("http://127.0.0.1:5500/foodweb/index.html")
+           var twitterShareUrl = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent("http://127.0.0.1:5500/foodweb/index.html")
+           window.open(twitterShareUrl, '_blank', 'width=550,height=420');
+        }
+    </script>
+</body>
+
+</html>
